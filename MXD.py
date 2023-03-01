@@ -4,7 +4,7 @@ print('[>] Checking Updates...')
 os.system('git pull')
 bit = platform.architecture()[0]
 if bit=='64bit':
-    import OLD
+    import MD
 else:
     print('\033[1;31m[×] Sorry Device Not Support')
  
